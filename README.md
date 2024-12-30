@@ -9,16 +9,15 @@ We notice that for a very large input, the MPI implementation has the best perfo
 
 The threaded approach also provides a huge improvement over the sequential approach, we can also notice the very little overhead for creating the threads. 
 
- 
+
+
 
 The second test is done using a smaller size input with 500,000 lines 
+![Screenshot from 2024-12-30 22-00-23](https://github.com/user-attachments/assets/a02ef6e0-ffdc-49a8-9bf1-4ffaa7934f80)
 
 We notice that the MPI approach here takes a second of kernel time to create the processes and then performs better than the threaded with regards to computation. But the overall time for the threaded implementation for this input size is less than the overall time of the MPI implementation. 
 
 We also notice that the difference between the sequential approach and the threaded approach is getting smaller. 
-
-![Screenshot from 2024-12-30 22-00-23](https://github.com/user-attachments/assets/a02ef6e0-ffdc-49a8-9bf1-4ffaa7934f80)
-
 
 
 
